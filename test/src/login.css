@@ -1,0 +1,293 @@
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .login {
+    width: 30%;
+    height: 600px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h2 {
+    color: tomato;
+    font-size: 2em;
+  }
+  .login_sns {
+    padding: 20px;
+    display: flex;
+  }
+  
+  .login_sns li {
+    padding: 0px 15px;
+  }
+  
+  .login_sns a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    background: white;
+    font-size: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4), -3px -3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login_id {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .login_id input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+  
+  .login_pw {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .login_pw input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+  
+  .login_etc {
+    padding: 10px;
+    width: 80%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .subdiv {
+    margin-top: 50px;
+    width: 80%;
+  }
+  .sub {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+    background: linear-gradient(to left, rgb(255, 77, 46), rgb(255, 155, 47));
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
+/*여기부터는 수강신청(student)*/
+  .subtable{
+    background: linear-gradient(to left, rgb(255, 77, 46), rgb(143, 112, 79));
+    align-content: center;
+    border: 1px solid black;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+  .title{
+    text-align: center;
+  }
+
+  .subth{
+    text-align: center;
+  }
+
+  .subtd{
+    text-align: center;
+  }
+
+  /*StudentMain css*/
+
+  .StudentHeader{
+    border: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border-right: 1px solid #ddd;
+    background-color: black;
+    color: white;
+  }
+
+  .StuSub{
+    text-align: left;
+  }
+
+  /*professor*/
+  .proHead{
+    border: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border-right: 1px solid #ddd;
+    background-color: black;
+    color: white;
+  }
+
+  .Probody{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .Prodiv{
+    width: 30%;
+    height: 600px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Probutton{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+    background: linear-gradient(to left, rgb(255, 77, 46), rgb(255, 155, 47));
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
+  .div_PB{
+    margin-top: 50px;
+    width: 80%;
+  }
+
+  .scoretitle{
+    position: relative;
+    top: 1px;
+  }
+  .make_sub{
+    width: 70%;
+    padding: 13px;
+  }
+  .sub_name{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+  .SUBSUB{
+    width : 55%;
+    border-radius: 30px;
+    height: 40px;
+    background: linear-gradient(to left, rgb(255, 77, 46), rgb(255, 155, 47));
+    margin-top: 20px;
+  }
+
+  .sign{
+    width: 50%;
+  }
+  .sign input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    outline: none;
+    
+  }
+  .sign select {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 0px;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+    
+  }
+  /*이거 수강신청 버튼임*/
+  .subBTN{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 55%;
+    margin: 1px;
+  }
+/*점수테이블*/
+  .scoretable{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .scoretr{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    }
+  .scoretd{
+    text-align: center;
+    border-spacing: 2px;
+  }
+  .scoretd input{
+    width: 50%;
+  }
+
+  .titlescoretr{
+    border-bottom: 3px solid gray;
+    border-image: linear-gradient(to left, rgb(255, 77, 46), rgb(255, 155, 47));
+  }
+  /*수강신청 테이블*/
+  .enrolTable{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .scoretr{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    }
+  .enroltd{
+    text-align: center;
+    border-spacing: 2px;
+  }
+  .titlescoretr{
+    border-bottom: 3px solid gray;
+    border-image: linear-gradient(to left, rgb(255, 77, 46), rgb(255, 155, 47));
+  }
+  .subBTN{
+    text-align: center;
+    width: 70%;
+  }
+/*개인정보창 css*/
+  .infoTable{
+    align-items: center;
+    width: 100%;
+    height: 70%;
+  }
+
+  .infotr{
+    margin: 200px;
+  }
+  .infotd{
+    text-align: center;
+  }
